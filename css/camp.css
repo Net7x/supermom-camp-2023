@@ -1,0 +1,44 @@
+@font-face {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("../fonts/Nunito-ExtraBold.ttf");
+}
+
+.bg {
+    background: linear-gradient(0.37turn, rgba(203, 78, 232, 1), rgba(255, 112, 0, 1), rgba(252, 231, 0, 1))!important;
+    background-attachment: fixed, fixed !important;
+}
+
+.navbar-brand{
+    font-family: Nunito, sans-serif;
+}
+
+.nav-link {
+    font-family: Nunito, sans-serif;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.nav-bg {
+    background-color: #9265ce;
+}
+
+.btn-light {
+    font-family: Nunito;
+    color:#9265ce;
+}
+
+.btn-light:hover {
+    color: yellow;
+    background-color: #b285ee;
+}
+
+h1 {
+    font-family: Nunito, sans-serif;
+    color: white;
+}
