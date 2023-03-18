@@ -38,7 +38,15 @@
     background-color: #b285ee;
 }
 
-h1 {
+h1, h2 {
     font-family: Nunito, sans-serif;
     color: white;
+}
+
+h3{
+    font-family: Nunito, sans-serif;
+    color: white;
+    background-color: purple;
+    margin-bottom: 0;
+    padding: 0.5em;
 }
