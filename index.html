@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link href="css/camp.css" rel="stylesheet">
+    
   </head>
   <body class="bg">
     <nav class="navbar navbar-dark navbar-expand-lg nav-bg">
@@ -19,16 +20,16 @@
             
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Программа</a>
+                <a class="nav-link" href="#program">Программа</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Локация</a>
+                <a class="nav-link" href="#location">Локация</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Смены</a>
+                <a class="nav-link" href="#shifts">Смены</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Плюшки</a>
+                <a class="nav-link" href="#more">Плюшки</a>
               </li>
               <form class="d-flex justify-content-center " role="book">
                 <button class="btn btn-light ms-3" type="submit">Забронировать</button>
@@ -39,16 +40,267 @@
       </nav>
     <div class="container text-center">
         <div class="row align-items-center mt-4">
-          <div class="col">
-            <h1>SUPER CAMP 2023</h1>
-          </div>
-        <section id="headliner" class="d-none d-md-block mt-3">
-            <h3>Незабываемое лето, полное приключений на свежем воздухе, новых друзей и, конечно, английского!</h3>
-            <img src="images/kids-running.jpeg" width="100%">
-        </section>            
+            <div class="col">
+                <h1>SUPER CAMP 2023</h1>
+            </div>
           
-        </div>
-      </div>
+            <section id="headliner" class="d-none d-md-block mt-3">
+                <h3 class="purple-bg">Незабываемое лето, полное приключений на свежем воздухе, новых друзей и, конечно, английского!</h3>
+                <img src="images/kids-running.jpeg" width="100%">
+            </section>            
+        </div>    
+        
+        <section id="program" class="mb-5">
+            
+            <h2 class="section-title">SUPER программа</h2>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                                <ul class="stars p-3">
+                    <li>Ежедневные занятия английским с носителем языка</li> 
+                    <li>Квесты на свежем воздухе</li> 
+                    <li>Пенная вечеринка</li> 
+                    <li>Поход и ночевка в палатке (на охраняемой территории пляжа)</li> 
+                    <li>Спортивные занятия и игры на футбольном и волейбольном полях</li> 
+                    <li>Творческие мастер-классы и настольные игры </li> 
+                    <li>Завтраки, обеды и ужины на террасе у озера</li>
+                </ul>
+                </div>
+                <div class="col-5 d-none d-lg-block">
+                    <img src="images/soap.jpg" id="soap">
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col d-none d-lg-block">
+                    <img src="images/sport1.jpg" id="sport1">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="images/lesson.JPG" id="lesson">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="images/sport2.jpeg" id="sport2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-block d-lg-none">
+                    <div id="carouselExampleControls" class="carousel slide px-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/soap.jpg" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/lesson.JPG" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/sport1.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/sport2.jpeg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+
+                <div class="col-10 offset-1 mt-4">
+                    <div class="alert alert-light">Преодоление языкового барьера, много творчества, спорта и веселья!</div>
+                </div>
+                
+            </div>
+            
+        </section>
+    </div>
+        <section>
+            <div class="waves-top">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
+                    <path d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z" style="fill-rule:evenodd;opacity:0.33"></path>
+                    <path d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z" style="fill-rule:evenodd;opacity:0.66"></path>
+                    <path d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z" style="fill-rule:evenodd"></path>
+                </svg>
+            </div>   
+        </section>            
+        <section id="location">
+            <h2>SUPER локация</h2>
+            <div class="container">
+                 <p>Наш лагерь располагается всего в 20 минутах езды от города, в окружении березовой рощи на самом берегу озера.</p>
+                 <p> Дети будут проживать в комфортных 2-х местных номерах со всеми удобствами в отдельном коттедже.</p>
+                 
+                 <div class="row">
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <img src="images/location1.jpeg" >
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <img src="images/location2.jpeg" >
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <img src="images/location3.jpeg" >
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3">
+                        <img src="images/location4.jpeg" >
+                    </div>
+                    <div class="col-10 offset-1 mt-4">
+                        <div class="alert alert-light">Чистый воздух, комфорт и здоровье!</div>
+                    </div>
+                 </div>
+
+            </div>
+           
+        </section>
+        <section>
+            <div class="waves-bottom">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
+                    <path d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z" style="fill-rule:evenodd;opacity:0.33"></path>
+                    <path d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z" style="fill-rule:evenodd;opacity:0.66"></path>
+                    <path d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z" style="fill-rule:evenodd"></path>
+                </svg>
+            </div>             
+        </section>
+     <div class="container text-center">
+        <section id="more" class="mb-5">
+            
+            <h2 class="section-title">А ещё...</h2>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                                <ul class="stars p-3">
+                    <li>Экскурсии и мастер-классы</li> 
+                    <li>Уникальный опыт тур похода</li> 
+                    <li>Собственная валюта и ярмарка в конце смены</li> 
+                    <li>Лазертаг</li> 
+                    <li>Sup серфинг</li> 
+                    <li>Фото и видео отчеты для родителей в конце каждого дня</li> 
+                    <li>Возможность для родителей отдохнуть рядом</li>
+                </ul>
+                </div>
+                <div class="col-5 d-none d-lg-block">
+                    <img src="images/more1.jpg" id="kayaks">
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col d-none d-lg-block">
+                    <img src="images/more2.jpg" id="lasertag">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="images/more3.jpg" id="paperwork">
+                </div>
+                <div class="col d-none d-lg-block">
+                    <img src="images/more4.jpg" id="teacher">
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-12 d-block d-lg-none">
+                    <div id="carouselExampleControls" class="carousel slide px-3" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="images/more1.jpg" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/more2.jpg" class="d-block w-100" >
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/more3.jpg" class="d-block w-100">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="images/more4.jpg" class="d-block w-100">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+                
+            </div>
+            
+        </section>       
+
+        <section id="shifts" class="mb-5">
+            
+            <h2 class="section-title mb-4">SUPER cмены</h2>
+
+            <div class="d-flex justify-content-center flex-wrap">
+                <div class="shift">
+                    <div class="shift-title">
+                        Faster! Higher! Stronger!
+                    </div>
+                    <div class="shift-days">
+                        4 - 11 июня
+                    </div>
+                    <div class="shift-description">
+                        Спортивная
+                    </div>
+                </div>
+                <div class="shift">
+                    <div class="shift-title">
+                        Travel Blogging <br> Camp
+                    </div>
+                    <div class="shift-days">
+                        11 - 18 июня
+                    </div>
+                    <div class="shift-description">
+                        Про путешествия
+                    </div>
+                </div>
+                <div class="shift">
+                    <div class="shift-title">
+                        Art <br> Camp
+                    </div>
+                    <div class="shift-days">
+                        18 - 25 июня
+                    </div>
+                    <div class="shift-description">
+                        Творческая
+                    </div>
+                </div>
+                <div class="shift">
+                    <div class="shift-title">
+                        Cinema and Theatre Camp
+                    </div>
+                    <div class="shift-days">
+                        25 июня - 2 июля
+                    </div>
+                    <div class="shift-description">
+                        Театр и кино
+                    </div>
+                </div>
+                <div class="shift">
+                    <div class="shift-title">
+                        IT & Technology Camp
+                    </div>
+                    <div class="shift-days">
+                        2 - 9 июля
+                    </div>
+                    <div class="shift-description">
+                        Технологическая
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10 offset-1 mt-4 mb-3">
+                <div class="alert alert-light">5 тематических смен на любой вкус!</div>
+            </div>
+                
+        </section>
+
+
+
+     </div>         
+
+     
+
+
+        
+      
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>
