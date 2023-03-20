@@ -295,3 +295,32 @@ h3, h2{
     right: 2em;
     border: solid 1px darkgray;
 }
+
+#features {
+    margin-top: 4em;
+    background-color: rgb(228, 228, 228);
+    color: rgb(35, 35, 35);
+    font-family: Nunito, sans-serif;
+    border-radius: 2em;
+    box-shadow: 5px 5px 10px purple;
+    padding-bottom: 1em;
+}
+
+#features .section-title {
+    background-color: rgb(82, 82, 82);
+}
+
+#features li {
+    font-size: larger;
+    text-align: left;
+    padding-left: 1em;
+    padding-bottom: 0.3em;
+}
+
+#features ul {
+  list-style: none;
+}
+
+#features ul li:before {
+  content: '✓ ';
+}
