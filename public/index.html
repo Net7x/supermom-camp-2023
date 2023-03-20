@@ -1,73 +1,80 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="css/camp.css" rel="stylesheet">
-    
-  </head>
-  <body class="bg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="./css/camp.css" rel="stylesheet">
+
+</head>
+
+<body class="bg">
     <nav class="navbar navbar-dark navbar-expand-lg nav-bg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">SuperMom</a>  
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#program">Программа</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#location">Локация</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#shifts">Смены</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#more">Плюшки</a>
-              </li>
-              <form class="d-flex justify-content-center " role="book">
-                <button class="btn btn-light ms-3" type="submit">Забронировать</button>
-              </form>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">SuperMom</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#program">Программа</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Локация</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#shifts">Смены</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#more">Плюшки</a>
+                    </li>
+                    <div class="p-1"></div>
+                    <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bookModal">
+                        Забронировать
+                    </button>
+
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
     <div class="container text-center">
         <div class="row align-items-center mt-4">
             <div class="col">
                 <h1>SUPER CAMP 2023</h1>
             </div>
-          
+
             <section id="headliner" class="d-none d-md-block mt-3">
-                <h3 class="purple-bg">Незабываемое лето, полное приключений на свежем воздухе, новых друзей и, конечно, английского!</h3>
+                <h3 class="purple-bg">Незабываемое лето, полное приключений на свежем воздухе, новых друзей и, конечно,
+                    английского!</h3>
                 <img src="images/kids-running.jpeg" width="100%">
-            </section>            
-        </div>    
-        
+            </section>
+        </div>
+
         <section id="program" class="mb-5">
-            
+
             <h2 class="section-title">SUPER программа</h2>
             <div class="row">
                 <div class="col-12 col-lg-7">
-                                <ul class="stars p-3">
-                    <li>Ежедневные занятия английским с носителем языка</li> 
-                    <li>Квесты на свежем воздухе</li> 
-                    <li>Пенная вечеринка</li> 
-                    <li>Поход и ночевка в палатке (на охраняемой территории пляжа)</li> 
-                    <li>Спортивные занятия и игры на футбольном и волейбольном полях</li> 
-                    <li>Творческие мастер-классы и настольные игры </li> 
-                    <li>Завтраки, обеды и ужины на террасе у озера</li>
-                </ul>
+                    <ul class="stars p-3">
+                        <li>Ежедневные занятия английским с носителем языка</li>
+                        <li>Квесты на свежем воздухе</li>
+                        <li>Пенная вечеринка</li>
+                        <li>Поход и ночевка в палатке (на охраняемой территории пляжа)</li>
+                        <li>Спортивные занятия и игры на футбольном и волейбольном полях</li>
+                        <li>Творческие мастер-классы и настольные игры </li>
+                        <li>Завтраки, обеды и ужины на террасе у озера</li>
+                    </ul>
                 </div>
                 <div class="col-5 d-none d-lg-block">
                     <img src="images/soap.jpg" id="soap">
-                </div>                
+                </div>
             </div>
             <div class="row">
                 <div class="col d-none d-lg-block">
@@ -84,102 +91,118 @@
                 <div class="col-12 d-block d-lg-none">
                     <div id="carouselExampleControls" class="carousel slide px-3" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="images/soap.jpg" class="d-block w-100" >
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/lesson.JPG" class="d-block w-100" >
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/sport1.jpg" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/sport2.jpeg" class="d-block w-100">
-                          </div>
+                            <div class="carousel-item active">
+                                <img src="images/soap.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/lesson.JPG" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/sport1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/sport2.jpeg" class="d-block w-100">
+                            </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
                 </div>
 
                 <div class="col-10 offset-1 mt-4">
-                    <div class="alert alert-light">Преодоление языкового барьера, много творчества, спорта и веселья!</div>
+                    <div class="alert alert-light">Преодоление языкового барьера, много творчества, спорта и веселья!
+                    </div>
                 </div>
-                
-            </div>
-            
-        </section>
-    </div>
-        <section>
-            <div class="waves-top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
-                    <path d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z" style="fill-rule:evenodd;opacity:0.33"></path>
-                    <path d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z" style="fill-rule:evenodd;opacity:0.66"></path>
-                    <path d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z" style="fill-rule:evenodd"></path>
-                </svg>
-            </div>   
-        </section>            
-        <section id="location">
-            <h2>SUPER локация</h2>
-            <div class="container">
-                 <p>Наш лагерь располагается всего в 20 минутах езды от города, в окружении березовой рощи на самом берегу озера.</p>
-                 <p> Дети будут проживать в комфортных 2-х местных номерах со всеми удобствами в отдельном коттедже.</p>
-                 
-                 <div class="row">
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <img src="images/location1.jpeg" >
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <img src="images/location2.jpeg" >
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <img src="images/location3.jpeg" >
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-3">
-                        <img src="images/location4.jpeg" >
-                    </div>
-                    <div class="col-10 offset-1 mt-4">
-                        <div class="alert alert-light">Чистый воздух, комфорт и здоровье!</div>
-                    </div>
-                 </div>
 
             </div>
-           
+
         </section>
-        <section>
-            <div class="waves-bottom">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
-                    <path d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z" style="fill-rule:evenodd;opacity:0.33"></path>
-                    <path d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z" style="fill-rule:evenodd;opacity:0.66"></path>
-                    <path d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z" style="fill-rule:evenodd"></path>
-                </svg>
-            </div>             
-        </section>
-     <div class="container text-center">
+    </div>
+    <section>
+        <div class="waves-top">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
+                <path
+                    d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z"
+                    style="fill-rule:evenodd;opacity:0.33"></path>
+                <path
+                    d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z"
+                    style="fill-rule:evenodd;opacity:0.66"></path>
+                <path
+                    d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z"
+                    style="fill-rule:evenodd"></path>
+            </svg>
+        </div>
+    </section>
+    <section id="location">
+        <h2>SUPER локация</h2>
+        <div class="container">
+            <p>Наш лагерь располагается всего в 20 минутах езды от города, в окружении березовой рощи на самом берегу
+                озера.</p>
+            <p> Дети будут проживать в комфортных 2-х местных номерах со всеми удобствами в отдельном коттедже.</p>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img src="images/location1.jpeg">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img src="images/location2.jpeg">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img src="images/location3.jpeg">
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <img src="images/location4.jpeg">
+                </div>
+                <div class="col-10 offset-1 mt-4">
+                    <div class="alert alert-light">Чистый воздух, комфорт и здоровье!</div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section>
+        <div class="waves-bottom">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 84.94" preserveAspectRatio="none">
+                <path
+                    d="M0,0V72.94c14.46,5.89,32.38,10.5,54.52.26,110.25-51,120.51,23.71,192.6-4.3,144.73-56.23,154.37,49.44,246.71,4.64C637,4.05,622.19,124.16,757.29,66.21c93-39.91,108.38,54.92,242.71-8.25V0Z"
+                    style="fill-rule:evenodd;opacity:0.33"></path>
+                <path
+                    d="M0,0V52.83c131.11,59.9,147-32.91,239.24,6.65,135.09,58,120.24-62.16,263.46,7.34,92.33,44.8,102-60.88,246.71-4.64,72.1,28,82.35-46.71,192.6,4.3,23.95,11.08,43,4.78,58-1.72V0Z"
+                    style="fill-rule:evenodd;opacity:0.66"></path>
+                <path
+                    d="M0,0V24.26c15.6,6.95,35.77,15.41,61.78,3.38,110.25-51,120.51,23.71,192.6-4.3C399.11-32.89,408.75,72.79,501.08,28,644.3-41.51,629.45,78.6,764.54,20.65,855.87-18.53,872.34,72.12,1000,15.7V0Z"
+                    style="fill-rule:evenodd"></path>
+            </svg>
+        </div>
+    </section>
+    <div class="container text-center">
         <section id="more" class="mb-5">
-            
+
             <h2 class="section-title">А ещё...</h2>
             <div class="row">
                 <div class="col-12 col-lg-7">
-                                <ul class="stars p-3">
-                    <li>Экскурсии и мастер-классы</li> 
-                    <li>Уникальный опыт тур похода</li> 
-                    <li>Собственная валюта и ярмарка в конце смены</li> 
-                    <li>Лазертаг</li> 
-                    <li>Sup серфинг</li> 
-                    <li>Фото и видео отчеты для родителей в конце каждого дня</li> 
-                    <li>Возможность для родителей отдохнуть рядом</li>
-                </ul>
+                    <ul class="stars p-3">
+                        <li>Экскурсии и мастер-классы</li>
+                        <li>Уникальный опыт тур похода</li>
+                        <li>Собственная валюта и ярмарка в конце смены</li>
+                        <li>Лазертаг</li>
+                        <li>Sup серфинг</li>
+                        <li>Фото и видео отчеты для родителей в конце каждого дня</li>
+                        <li>Возможность для родителей отдохнуть рядом</li>
+                    </ul>
                 </div>
                 <div class="col-5 d-none d-lg-block">
                     <img src="images/more1.jpg" id="kayaks">
-                </div>                
+                </div>
             </div>
             <div class="row">
                 <div class="col d-none d-lg-block">
@@ -196,36 +219,38 @@
                 <div class="col-12 d-block d-lg-none">
                     <div id="carouselExampleControls" class="carousel slide px-3" data-bs-ride="carousel">
                         <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <img src="images/more1.jpg" class="d-block w-100" >
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/more2.jpg" class="d-block w-100" >
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/more3.jpg" class="d-block w-100">
-                          </div>
-                          <div class="carousel-item">
-                            <img src="images/more4.jpg" class="d-block w-100">
-                          </div>
+                            <div class="carousel-item active">
+                                <img src="images/more1.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/more2.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/more3.jpg" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/more4.jpg" class="d-block w-100">
+                            </div>
                         </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Previous</span>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
                         </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="visually-hidden">Next</span>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
                         </button>
-                      </div>
+                    </div>
                 </div>
-                
+
             </div>
-            
-        </section>       
+
+        </section>
 
         <section id="shifts" class="mb-5">
-            
+
             <h2 class="section-title mb-4">SUPER cмены</h2>
 
             <div class="d-flex justify-content-center flex-wrap">
@@ -289,38 +314,111 @@
             <div class="col-10 offset-1 mt-4 mb-3">
                 <div class="alert alert-light">5 тематических смен на любой вкус!</div>
             </div>
-                
+
         </section>
 
         <section id="features" class="mb-5">
-            
+
             <h2 class="section-title">В стоимость включено</h2>
             <div class="row">
                 <div class="col-12">
-                    <ul class="stars p-3">
-                        <li>проживание в 2-х местных номерах с удобствами в номере</li> 
-                        <li>5-разовое питание</li> 
-                        <li>трансфер до и от места расположения кэмпа</li> 
-                        <li>занятия по программе</li> 
-                        <li>1 тематическая экскурсия/мастер-класс</li> 
-                        <li>пенная вечеринка</li> 
+                    <ul class="stars pt-3">
+                        <li>проживание в 2-х местных номерах с удобствами в номере</li>
+                        <li>5-разовое питание</li>
+                        <li>трансфер до и от места расположения кэмпа</li>
+                        <li>занятия по программе</li>
+                        <li>1 тематическая экскурсия/мастер-класс</li>
+                        <li>пенная вечеринка</li>
                         <li>ночевка в палатке</li>
                         <li>медицинская страховка</li>
                         <li>фирменная кепка</li>
                     </ul>
-                </div>             
+                </div>
+                <div class="col-10 offset-1">
+                    <div class="alert alert-light">
+                        Еще одним преимуществом нашего летнего кэмпа является его камерность. Мы за то, чтобы всем
+                        ребятам уделялось максимум внимания и заботы!</div>
+                </div>
+                <div class="col-12">
+                    <h4>Cтоимость путёвки</h4>
+                    <p class="old-price">33 500 ₽</p>
+                    <p class="comment">*до 23 апреля 2023г</p>
+                    <p class="new-price">30 500 ₽</p>
+
+                </div>
+                <button class="btn btn-dark btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#bookModal">Забронировать</button>
             </div>
 
-            
-        </section> 
 
-     </div>         
+        </section>
 
-     
+    </div>
 
+    <div class="modal fade" id="bookModal" tabindex="-1" aria-labelledby="bookModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header" data-bs-theme="dark">
+                    <h5 class="modal-title" id="exampleModalLabel">Заполните заявку</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">SUPER Смена</label>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="shift1">
+                                <label class="form-check-label" for="shift1">
+                                    Спортивная - с 4 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="shift2">
+                                <label class="form-check-label" for="shift2">
+                                    Про путешествия - с 11 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="shift3">
+                                <label class="form-check-label" for="shift3">
+                                    Творческая - с 18 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="shift4">
+                                <label class="form-check-label" for="shift4">
+                                    Театр и Кино - с 25 июня
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="shift5">
+                                <label class="form-check-label" for="shift5">
+                                    Технологическая - со 2 июля
+                                </label>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="fio" class="form-label">SUPER Родитель </label>
+                            <input type="text" class="form-control" id="fio" placeholder="Ваше ФИО">
+                        </div>
+                        <div>
+                            <label for="phone" class="form-label">SUPER Телефон </label>
+                            <input type="tel" class="form-control" id="phone" placeholder="Ваш замечательный телефон"
+                                required>
+                        </div>
 
-        
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-  </body>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-dark">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
