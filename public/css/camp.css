@@ -43,6 +43,12 @@ h1 {
     color: white;
 }
 
+.subtitle {
+    color: white;
+    font-family: Nunito, sans-serif;
+    font-size: x-large;
+}
+
 h3,
 h2 {
     font-family: Nunito, sans-serif;
